@@ -2,8 +2,8 @@
 * @Author: Nicolas Fazio <webmaster-fazio>
 * @Date:   24-12-2016
 * @Email:  contact@nicolasfazio.ch
- * @Last modified by:   webmaster-fazio
- * @Last modified time: 27-03-2017
+ * @Last modified by:   alexandrerocca
+ * @Last modified time: 2017-07-19T12:28:50+02:00
 */
 
 import * as express from 'express';
@@ -18,7 +18,7 @@ export class ServerRoutes {
       // Index Server
      app.get('/', log, (req, res)=>{
         res.status(200);
-        res.json([{api: 'Hello!'}]);
+        res.json([{api: 'Hello Alexandre!'}]);
        });
       return app;
     }
